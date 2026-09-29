@@ -1,9 +1,13 @@
 Source: vyatta-openvpn-yang
-Section: contrib/net
+Section: net
 Priority: optional
-Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
-Build-Depends: debhelper (>= 9~), dh-yang,
-Standards-Version: 3.9.8
+Maintainer: NuDanOS Maintainers <jon@fernandez.tech>
+Build-Depends: debhelper-compat (= 13),
+ dh-yang
+Standards-Version: 4.7.2
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/nudanos/vyatta-openvpn-yang.git
+Vcs-Browser: https://github.com/nudanos/vyatta-openvpn-yang
 
 Package: vyatta-interfaces-openvpn-v1-yang
 Architecture: all
